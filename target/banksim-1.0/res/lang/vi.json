@@ -1,0 +1,321 @@
+{
+    "_comment": "Config language for generic",
+
+    "generic": {
+        "index": "STT",
+        "home": "Trang chủ",
+        "test": "Kiểm tra",
+        "addNew": "Thêm mới",
+        "edit": "Sửa",
+        "update": "Cập nhật",
+        "delete": "Xóa",
+        "detail": "Chi tiết",
+        "deleted": "Đã xóa",
+        "back": "Quay lại",
+        "status": "Trạng thái",
+        "status.all": "Tất cả",
+        "status.active": "Kích hoạt",
+        "status.unactive": "Chưa kích hoạt",
+        "status.lock": "Khóa",
+        "status.delete": "Xóa",
+        "search": "Tìm kiếm",
+        "reload": "Tải lại",
+        "reset": "Xóa form",
+        "config": "Cấu hình",
+        "display": "Hiển thị",
+        "line": "Dòng",
+        "name": "Tên",
+        "age": "Tuổi",
+        "address": "Địa chỉ",
+        "phone": "Số điện thoại",
+        "fax": "fax",
+        "email": "Hòm thư",
+        "website": "Trang chủ Công ty",
+        "zipcode": "Zip Code",
+        "country": "Quốc gia",
+        "country.choice": "Chọn Quốc gia",
+        "city": "Thành phố",
+        "city.choice": "Chọn Thành Phố",
+        "district": "Quận Huyện",
+        "district.choice": "Chọn Quận huyện",
+        "userName": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "fullName": "Tên đầy đủ",
+        "desc": "Mô tả",
+        "createDate": "Ngày tạo",
+        "createBy": "Người tạo",
+        "updateDate": "Ngày cập nhật",
+        "updateby": "Người cập nhật",
+        "role": "Quyền",
+        "login": "Đăng nhập",
+        "recover": "Khôi phục"
+    },
+
+    "_comment": "Config language for Main Menu",
+
+    "menu.system": {
+        "main": "Quản trị hệ thống",
+        "account": "Tài khoản quản trị",
+        "role": "Roles",
+        "moduleaction": "Module Action",
+        "screenpath": "Screen Path",
+        "module": "QL Module",
+        "configcategory": "Nhóm cấu hình",
+        "logaction": "Lịch sử tác động"
+    },
+    "menu.agency": {
+        "main": "Quản lý đại lý"
+    },
+    "menu.client": {
+        "main": "Quản lý tài khoản"
+    },
+    "menu.client.historytopup": {
+        "main": "Lịch sử nạp tiền"
+    },
+    "menu.call-cdr": {
+        "main": "Lịch sử cuộc gọi",
+        "statistic":"Thống kê cuộc gọi"
+    },
+    "menu.config": {
+        "main": "Cấu hình hệ thống",
+        "country": "Quốc gia",
+        "nationality": "Quốc tịch",
+        "countrylanguage": "Ngông ngữ quốc gia",
+        "city": "Thành phố",
+        "district": "Quận huyện",
+        "town": "Phường xã",
+        "timezones": "QL Timezones",
+        "timezoneConfig": "Cấu hình Timezone",
+        "timeformatConf": "Cấu hình thời gian",
+        "dateformatConf": "Cấu hình Ngày tháng",
+        "userType": "Kiểu người dùng"
+    },
+    "menu.company": {
+        "main": "Quản lý công ty",
+        "company": "Danh sách công ty",
+        "branch": "Quản lý chi nhánh",
+        "bankInfo": "Thông tin ngân hàng",
+        "department": "Phòng Ban"
+    },
+    "menu.employee": {
+        "main": "Quản lý Nhân Viên",
+        "employee": "Danh sách Nhân Viên",
+        "empAccount": "Tài khoản Nhân Viên",
+        "empChildren": "Con cái của nhân viên",
+        "empTermination": "Danh sách nghỉ việc"
+    },
+
+    "_comment": "Config language in Module",
+    "login": {
+        "back": "Quay lại Đăng nhập",
+        "lostPassword": "Quên mật khẩu",
+        "lostPassword.message": "Nhập địa chỉ email của bạn dưới đây và chúng tôi sẽ gửi cho bạn hướng dẫn cách khôi phục mật khẩu.",
+        "recover.wrongInfo": "Thông tin tài khoản không đúng",
+        "recover.success": "Chúng tôi đã gửi xác nhận lấy lại mật khẩu tới Email của bạn.\nVui lòng kiểm tra và làm theo hướng dẫn"
+    },
+    "system.account": {
+        "subMenu": "Tài khoản quản trị",
+        "search.title": "Tìm kiếm tải khoản",
+        "search.user": "Tên đăng nhập/Tên Thật",
+        "search.phone": "Số Điện thoại",
+        "detail.title": "Danh sách tài khoản",
+        "subMenu.add": "Thêm mới Tài khoản Quản trị",
+        "edit": "Cập nhật Tài khoản Quản trị",
+        "privileges": "Cấp quyền cho tài khoản"
+    },
+    
+    "company": {
+        "title.list": "Quản lý Công ty",
+        "title.add": "Thêm mới Công ty",
+        "title.edit": "Cập nhật thông tin Công ty",
+        "subMenu": "Quản lý Công ty",
+        "search": "Tìm kiếm Công ty",
+        "parent": "Công ty cha",
+        "name": "Tên Công ty",
+        "name.placeholder": "Nhập Tên Công ty",
+        "name.en": "Tên Công ty (Tiếng Anh)",
+        "name.short": "Tên Công ty viết tắt",
+        "name.business": "Tên Thương mại",
+        "businessCode": "Mã số doanh nghiệp",
+        "code": "Mã Công ty",
+        "code.placeholder": "Nhập Mã Công ty",
+        "taxCode": "Mã số thuế",
+        "taxCode.placeholder": "Nhập Mã số thuế",
+        "title": "Danh sách Công ty",
+        "code": "Mã Công ty",
+        "regDate": "Ngày thành lập",
+        "reRegisDate": "Ngày đăng ký lại",
+        "changeTimes": "Đăng ký lại lần",
+        "regPlace": "Nơi đăng ký",
+        "manager": "Giám đốc",
+        "department": "Phòng Ban",
+        "hasParent": "Có công ty cha",
+        "addNew": "Thêm mới Công ty",
+        "edit": "Thay đổi thông tin công ty",
+        "emailConfig": "Cấu hình hòm thư hệ thống",
+        "emailConfig.server": "Server gửi thư",
+        "emailConfig.port": "Cổng mail server",
+        "emailConfig.encrypt": "Phương thức mã hóa",
+        "type": "Loại hình công ty",
+        "supperAdmin": "Tạo Tài khoản Quản trị"
+    },
+
+    "employee": {
+        "emplNo": "Mã số nhân viên",
+        "firstName": "Họ",
+        "middenName": "Tên đệm",
+        "lastName": "Tên"
+    },
+    "bankInfo": {
+        "title.list": "Quản lý thông tin ngân hàng",
+        "title.add": "Thêm mới thông tin ngân hàng",
+        "title.edit": "Cập nhật thông tin ngân hàng"
+    },
+    "branch": {
+        "title.list": "Quản lý thông tin Chi Nhánh",
+        "title.add": "Thêm mới Chi Nhánh",
+        "title.edit": "Cập nhật Chi Nhánh"
+    },
+    "city": {
+        "title.list": "Quản lý Thành phố",
+        "title.add": "Thêm mới thành phố",
+        "title.edit": "Cập nhật thành phố"
+    },
+    "configCate": {
+        "title.list": "Quản Lý Category Config",
+        "title.add": "Thêm mới Category Config",
+        "title.edit": "Cập nhật Category Config"
+    },
+    "configdb": {
+        "title.list": "Quản Lý Config DB Value",
+        "title.add": "Thêm mới Config DB ",
+        "title.edit": "Cập nhật Config DB "
+    },
+    "country": {
+        "title.list": "Quản lý Quốc gia",
+        "title.add": "Tạo mới Quốc gia",
+        "title.edit": "Cập nhật Quốc gia"
+    },
+    "countrylang": {
+        "title.list": "Ngôn ngữ Quốc gia",
+        "title.add": "Tạo mới Ngôn ngữ Quốc gia",
+        "title.edit": "Cập nhật Ngôn ngữ Quốc gia"
+    },
+    "dateformat": {
+        "title.list": "Quản lý cấu hình ngày tháng",
+        "title.add": "Tạo mới cấu hình ngày tháng",
+        "title.edit": "Cập nhật cấu hình ngày tháng"
+    },
+    "department": {
+        "title.list": "Quản lý phòng ban",
+        "title.add": "Tạo mới phòng ban",
+        "title.edit": "Cập nhật phòng ban"
+    },
+    "district": {
+        "title.list": "Quản lý Quận huyện",
+        "title.add": "Tạo mới Quận huyện",
+        "title.edit": "Cập nhật Quận huyện"
+    },
+    "empAccount": {
+        "title.list": "Quản lý tài khoản nhân viên",
+        "title.add": "Tạo mới tài khoản nhân viên",
+        "title.edit": "Cập nhật tài khoản nhân viên"
+    },
+    "empChildren": {
+        "title.list": "Quản lý con cái nhân viên",
+        "title.add": "Tạo mới con cái nhân viên",
+        "title.edit": "Cập nhật con cái nhân viên"
+    },
+    "empTerminationReseason": {
+        "title.list": "Quản lý lý do nghỉ việc",
+        "title.add": "Tạo mới lý do nghỉ việc",
+        "title.edit": "Cập nhật lý do nghỉ việc"
+    },
+    "empTermination": {
+        "title.list": "Quản lý nhân viên nghỉ việc",
+        "title.add": "Tạo mới nhân viên nghỉ việc",
+        "title.edit": "Cập nhật nhân viên nghỉ việc"
+    },
+    "gender": {
+        "title.list": "Quản lý giới tính",
+        "title.add": "Tạo mới giới tính",
+        "title.edit": "Cập nhật giới tính"
+    },
+    "jobtitle": {
+        "title.list": "Quản lý nghề nghiệp",
+        "title.add": "Tạo mới nghề nghiệp",
+        "title.edit": "Cập nhật nghề nghiệp"
+    },
+    "mailsetting": {
+        "title.list": "Quản lý cấu hình hòm thư",
+        "title.add": "Tạo mới cấu hình hòm thư",
+        "title.edit": "Cập nhật cấu hình hòm thư",
+        "submenu": "Quản lý cấu hình hòm thư"
+    },
+    "maritalStatus": {
+        "title.list": "Quản lý tình trạng hôn nhân",
+        "title.add": "Tạo mới tình trạng hôn nhân",
+        "title.edit": "Cập nhật tình trạng hôn nhân"
+    },
+    "moduleAction": {
+        "title.list": "Quản lý Module Action",
+        "title.add": "Tạo mới Module Action",
+        "title.edit": "Cập nhật Module Action"
+    },
+    "module": {
+        "title.list": "Quản lý Module",
+        "title.add": "Tạo mới Module",
+        "title.edit": "Cập nhật Module",
+        "title.conf": "Cấu hình Module"
+    },
+    "nationality": {
+        "title.list": "Quản lý Quốc Tịch",
+        "title.add": "Tạo mới Quốc Tịch",
+        "title.edit": "Cập nhật Quốc Tịch"
+    },
+    "position": {
+        "title.list": "Quản lý vị trí công việc",
+        "title.add": "Tạo mới vị trí công việc",
+        "title.edit": "Cập nhật vị trí công việc"
+    },
+    "role": {
+        "title.list": "Quản lý quyền",
+        "title.add": "Tạo mới quyền",
+        "title.edit": "Cập nhật quyền"
+    },
+    "screenPath": {
+        "title.list": "Quản lý Link truy cập",
+        "title.add": "Tạo mới Link truy cập",
+        "title.edit": "Cập nhật Link truy cập"
+    },
+    "sysAccount": {
+        "title.list": "Quản lý Tài khoản quản trị",
+        "title.add": "Tạo mới Tài khoản quản trị",
+        "title.edit": "Cập nhật Tài khoản quản trị",
+        "title.updateInfo": "Cập nhật thông tin tài khoản",
+        "title.recycle": "Tài khoản đã xóa"
+    },
+    "timeformat": {
+        "title.list": "Quản lý Định dạng thời gian",
+        "title.add": "Tạo mới Định dạng thời gian",
+        "title.edit": "Cập nhật Định dạng thời gian"
+    },
+    "timezoneConf": {
+        "title.list": "Quản lý cấu hình timeZone",
+        "title.add": "Tạo mới cấu hình timeZone",
+        "title.edit": "Cập nhật cấu hình timeZone"
+    },
+    "timezone": {
+        "title.list": "Quản lý timeZone",
+        "title.add": "Tạo mới timeZone",
+        "title.edit": "Cập nhật timeZone"
+    },
+    "town": {
+        "title.list": "Quản lý Phường Xã",
+        "title.add": "Tạo mới Phường Xã",
+        "title.edit": "Cập nhật Phường Xã"
+    },
+    "userAction": {
+        "title.list": "Quản lý Lịch sử thao tác người dùng"
+    }
+}

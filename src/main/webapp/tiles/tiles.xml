@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+        
+    <!-- Login Page -->
+    <definition name="gui_login" extends="unauthen">  
+        <put-attribute name="body" value="/gui-login.jsp" />
+    </definition>
+    
+    <!-- Authenticated -->
+    <definition name="gui_authen" template="/layout/authen-layout.jsp">
+        <put-attribute name="css" value="/include/css.jsp" />
+        <put-attribute name="footer" value="/include/footer.jsp" />
+        <put-attribute name="menu" value="/include/menu.jsp" />
+    </definition>
+    <definition name="gui_unauthen" template="/admin/layout/unauthen-layout.jsp">
+        <put-attribute name="css" value="/include/css.jsp" />
+        <put-attribute name="footer" value="/include/footer.jsp" /> 
+    </definition>
+    
+    <!-- Index -->
+    <definition name="gui_index" extends="authen">  
+        <put-attribute name="body" value="/index.jsp" />
+    </definition>
+    
+<!--ADMINISTRATOR-->
+    
+    <!-- Login Page -->
+    <definition name="login" extends="unauthen">  
+        <put-attribute name="body" value="/admin/login.jsp" />
+    </definition>
+    
+    <!-- Authenticated -->
+    <definition name="authen" template="/admin/layout/authen-layout.jsp">
+        <put-attribute name="css" value="/admin/include/css.jsp" />
+        <put-attribute name="footer" value="/admin/include/footer.jsp" />
+        <put-attribute name="menu" value="/admin/include/menu.jsp" />
+    </definition>
+    <definition name="unauthen" template="/admin/layout/unauthen-layout.jsp">
+        <put-attribute name="css" value="/admin/include/css.jsp" />
+        <put-attribute name="footer" value="/admin/include/footer.jsp" /> 
+    </definition>
+    
+    <!-- Index -->
+    <definition name="index" extends="authen">  
+        <put-attribute name="body" value="/admin/index.jsp" />
+    </definition>
+    
+    <!-- Account -->    
+    <definition name="sys-account" extends="authen">  
+        <put-attribute name="body" value="/admin/sys-account/list-account.jsp" />
+    </definition>    
+    <definition name="sys-account-add" extends="authen">  
+        <put-attribute name="body" value="/admin/sys-account/add-account.jsp" />
+    </definition>  
+    <definition name="sys-account-edit" extends="authen">  
+        <put-attribute name="body" value="/admin/sys-account/edit-account.jsp" />
+    </definition>
+        
+    <!--Log user_action-->
+    <definition name="admin-user-action" extends="authen">  
+        <put-attribute name="body" value="/admin/user-action/user-action-list.jsp"/>
+    </definition>
+    
+</tiles-definitions>
